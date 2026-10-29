@@ -1,10 +1,98 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Rendang Daging Sapi",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Sumatera Barat",
+    "waktuMasak": 180,
+    "tingkatKesulitan": "sulit"
+  },
+  {
+    "id": "2",
+    "judul": "Gudeg Jogja",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Yogyakarta",
+    "waktuMasak": 240,
+    "tingkatKesulitan": "sulit"
+  },
+  {
+    "id": "3",
+    "judul": "Soto Lamongan",
+    "kategori": "Sup",
+    "daerahAsal": "Jawa Timur",
+    "waktuMasak": 90,
+    "tingkatKesulitan": "sedang"
+  },
+  {
+    "id": "4",
+    "judul": "Nasi Goreng Kampung",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Jawa Tengah",
+    "waktuMasak": 20,
+    "tingkatKesulitan": "mudah"
+  },
+  {
+    "id": "5",
+    "judul": "Pempek Kapal Selam",
+    "kategori": "Kudapan",
+    "daerahAsal": "Sumatera Selatan",
+    "waktuMasak": 75,
+    "tingkatKesulitan": "sedang"
+  },
+  {
+    "id": "6",
+    "judul": "Sambal Matah",
+    "kategori": "Sambal",
+    "daerahAsal": "Bali",
+    "waktuMasak": 15,
+    "tingkatKesulitan": "mudah"
+  },
+  {
+    "id": "7",
+    "judul": "Es Cendol Dawet",
+    "kategori": "Minuman",
+    "daerahAsal": "Jawa Barat",
+    "waktuMasak": 45,
+    "tingkatKesulitan": "sedang"
+  },
+  {
+    "id": "8",
+    "judul": "Ayam Betutu",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Bali",
+    "waktuMasak": 210,
+    "tingkatKesulitan": "sulit"
+  },
+  {
+    "id": "9",
+    "judul": "Pepes Ikan Mas",
+    "kategori": "Lauk",
+    "daerahAsal": "Jawa Barat",
+    "waktuMasak": 60,
+    "tingkatKesulitan": "sedang"
+  },
+  {
+    "id": "10",
+    "judul": "Klepon Pandan",
+    "kategori": "Kudapan",
+    "daerahAsal": "Jawa Timur",
+    "waktuMasak": 50,
+    "tingkatKesulitan": "sedang"
+  },
+  {
+    "id": "11",
+    "judul": "Papeda Kuah Kuning",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Papua",
+    "waktuMasak": 60,
+    "tingkatKesulitan": "sedang"
+  },
+  {
+    "id": "12",
+    "judul": "Tumis Kangkung Belacan",
+    "kategori": "Sayuran",
+    "daerahAsal": "Kalimantan Barat",
+    "waktuMasak": 15,
+    "tingkatKesulitan": "mudah"
   }
 ]
