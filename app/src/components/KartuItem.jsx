@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import TingkatKesulitan from './TingkatKesulitan.jsx'
+import InfoWaktu from './InfoWaktu.jsx'
 
 export default function KartuItem({ item }) {
   const { id, judul, kategori, daerahAsal } = item
@@ -10,6 +12,8 @@ export default function KartuItem({ item }) {
       <p>
         {kategori} · {daerahAsal}
       </p>
+      <InfoWaktu item={item} />
+      <TingkatKesulitan item={item} />
     </article>
   )
 }
