@@ -92,4 +92,15 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- **
+- **Komponen** : adalah tampilan bisa dipakai ulang (reusable) contohnya Layout, KartuItem, KotakPencarian
+- **JSX** : adalah cara menulis tampilan di JavaScript dengan struktur yang mirip dengan HTML contohnya Beranda.jsx, Detail.jsx dan file lainnya dengan akhiran ".jsx"
+- **Props** : adalah data eksternal yang diteruskan dari parent ke child contohnya adalah Koleksi yang mengirim item ke KartuItem
+- **State (useState)** : adalah data internal yang bisa berubah dan saat berubah maka tampilan akan ikut diperbarui. Contohnya pada teks pencarian di Koleksi.jsx
+- **Side Effect (useEffect)** : adalah hook untuk menjalankan side effects di components yang fungsional contohnya di KoleksiProvider yang mengambil Koleksi.json
+- **Fetch API dan Async/Await** : adalah cara mengambil data dari file JSON yaitu fetch untuk mengambil datanya dan await membuat kode menunggu sampai data selesai diambil. Contohnya di KoleksiProvider.jsx, data diambil dengan fetch dan hasilnya memengaruhi state loading dan error
+- **Context API (createContext, Provider, useContext)** : adalah tempat data bersama supaya tidak perlu mengirim props berlapis-lapis atau prop drilling contohnya daftar resep dengan fungsi tambah dan hapus yang disimpan di KoleksiProvider 
+- **Custom hook** : adalah fungsi buatan sendiri yang menggunakan hooks untuk mengelompokkan logika agar bisa digunakan lagi. Contohnya useKoleksi untuk mengambil data dari Context, jadi halaman tinggal memanggil useKoleksi tanpa mengurus useContext sendiri
+- **React Router** : adalah library yang mengatur perpindahan halaman tanpa reload. Contohnya route path=*=* di App.js menampilkan halaman 404 untuk halaman yang tidak dikenal
+- **Form terkontrol** : isi setiap kotak input yang disimpan pada state react jadi react tahu isinya setiap saat. Contohnya di Tambah.jsx setiap input memakai value dari state form dan onchange untuk memperbaruinya sehingga judul bisa divalidasi sebelum disimpan
+- **Rendering** : adalah proses React menampilkan dan memperbarui tampilan. Jadi setiap kali state, props atau context berubah maka react akan menjalankan ulang komponen yang ada dengan membandingkan tampilan yang lama dengan yang baru lalu hanya bagian yang berbeda yang diperbarui. Contohnya di Koleksi.jsx ketika teks pencarian berubah hanya kartu yang hasilnya berubah yang ikut berganti.
+- **Lifecycle** : adalah tahapan sebuah komponen yaitu mounting (muncul di layar), updating (diperbarui saat state atau props berubah) dan unmounting (dihapus dari layar). Contohnya pada KoleksiProvider yang memakai useEffect dengan [] untuk mengambil data resep saat pertama dibuka (mounting)
