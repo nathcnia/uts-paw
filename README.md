@@ -34,7 +34,7 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 3. Clone fork, kerjakan soal di folder `app/`:
 
    ```bash
-   git clone https://github.com/USERNAME/uts-paw.git
+   git clone https://github.com/nathcnia/uts-paw.git
    cd uts-paw/app
    npm install
    npm run dev
@@ -62,20 +62,19 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Nathania Calista Hutapea
+NIM: 124140101
+Kelas: RA
+Tema: Resep Masakan Nusantara
+Deployment: https://nathcnia.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
 
-- ...
+- **Beranda** : menampilkan tema "Resep Masakan Nusantara" dengan 12 jumlah resep dalam 7 jumlah kategori 
 
 ## Menjalankan secara lokal
 
