@@ -15,7 +15,7 @@
   display: flex;
   gap: 1rem;
 }
-
+ 
 .menu a.active {
   font-weight: 600;
 }
@@ -119,4 +119,20 @@
   color: #333333;
   border-radius: 4px;
   font-size: 0.8rem;
+}
+
+#app-container {
+  background-color: #ffffff;
+}
+
+#main-content {
+  padding-bottom: 2rem;
+}
+
+#site-footer {
+  text-align: center;
+}
+
+.menu a:focus {
+  outline: 2px solid #0056b3;
 }
