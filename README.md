@@ -76,7 +76,13 @@ Deployment: https://nathcnia.github.io/uts-paw/
 
 - **Beranda** : menampilkan tema "Resep Masakan Nusantara" dengan 12 jumlah resep dalam 7 jumlah kategori dan link menuju halaman koleksi resep
 - **Koleksi** : menampilkan 12 resep dalam bentuk kartu item dengan isi judul dan link menuju halaman detail 
-- **Pencarian dan Filter**: menampilkan item sesuai dengan kategori (semua, makanan utama, sup, kudapan, sambal, minuman, lauk, sayuran)
+- **Pencarian dan Filter** : menampilkan item sesuai dengan kategori (semua, makanan utama, sup, kudapan, sambal, minuman, lauk, sayuran)
+- **Detail resep** : menampilkan judul makanan, daerah asal, waktu masak, tingkat kesulitan dan tombol hapus untuk menghapus item
+- **Tambah resep** : menampilkan input yang bisa ditambahkan berupa judul, kategori, daerah asal, waktu masak dan tingkat kesulitan
+- **Statistik** : menampilkan tabel jumlah resep yang berisi kolom kategori dan jumlah 
+- **Tentang** : menampilkan nama, NIM, kelas, tema dan kode sumber dengan link menuju GitHub
+- **Halaman 404** : menampilkan halaman yang tidak ditemukan dengan link kembali ke beranda
+- **Navigasi** : berada di header untuk mengakses halaman lain
 
 ## Menjalankan secara lokal
 
@@ -86,5 +92,4 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- **
