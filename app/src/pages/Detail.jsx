@@ -28,12 +28,12 @@ export default function Detail() {
     <section>
       <h1>{item.judul}</h1>
       <dl>
-        <dt>Kategori</dt>
-        <dd>{item.kategori}</dd>
-        <dt>Tenggat</dt>
-        <dd>{item.tenggat}</dd>
-        <dt>Prioritas</dt>
-        <dd>{item.prioritas}</dd>
+        <dt>Daerah Asal</dt>
+        <dd>{item.daerahAsal}</dd>
+        <dt>Waktu Masak</dt>
+        <dd>{item.waktuMasak} menit</dd>
+        <dt>Tingkat Kesulitan</dt>
+        <dd>{item.tingkatKesulitan}</dd>
       </dl>
       <div className="aksi">
         <button type="button" onClick={konfirmasiHapus}>
