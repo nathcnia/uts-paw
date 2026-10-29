@@ -74,7 +74,8 @@ Deployment: https://nathcnia.github.io/uts-paw/
 
 ## Fitur
 
-- **Beranda** : menampilkan tema "Resep Masakan Nusantara" dengan 12 jumlah resep dalam 7 jumlah kategori 
+- **Beranda** : menampilkan tema "Resep Masakan Nusantara" dengan 12 jumlah resep dalam 7 jumlah kategori dan link menuju halaman koleksi resep
+- **Koleksi**
 
 ## Menjalankan secara lokal
 
