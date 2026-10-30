@@ -18,7 +18,7 @@
   {
     "id": "3",
     "judul": "Soto Lamongan",
-    "kategori": "Sup",
+    "kategori": "Makanan Utama",
     "daerahAsal": "Jawa Timur",
     "waktuMasak": 90,
     "tingkatKesulitan": "sedang"
@@ -66,7 +66,7 @@
   {
     "id": "9",
     "judul": "Pepes Ikan Mas",
-    "kategori": "Lauk",
+    "kategori": "Makanan Utama",
     "daerahAsal": "Jawa Barat",
     "waktuMasak": 60,
     "tingkatKesulitan": "sedang"
@@ -90,7 +90,7 @@
   {
     "id": "12",
     "judul": "Tumis Kangkung Belacan",
-    "kategori": "Sayuran",
+    "kategori": "Makanan Utama",
     "daerahAsal": "Kalimantan Barat",
     "waktuMasak": 15,
     "tingkatKesulitan": "mudah"
