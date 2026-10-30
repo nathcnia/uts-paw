@@ -70,7 +70,7 @@ Kelas: RA
 Tema: Resep Masakan Nusantara
 Deployment: https://nathcnia.github.io/uts-paw/
 
-![Tangkapan layar beranda](public/beranda.png)
+![Tangkapan layar beranda](./beranda.png)
 
 ## Fitur
 
