@@ -15,7 +15,7 @@
   display: flex;
   gap: 1rem;
 }
- 
+
 .menu a.active {
   font-weight: 600;
 }
@@ -104,19 +104,24 @@
   }
 }
 
-.info-waktu {
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 0.85rem;
-  color: #57606a;
-}
-
-.tingkat-kesulitan {
+.info-badge {
   display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.2rem 0.4rem;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
   background-color: #eeeeee;
   color: #333333;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.region-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #e0f2f1;
+  color: #00695c;
   border-radius: 4px;
   font-size: 0.8rem;
 }

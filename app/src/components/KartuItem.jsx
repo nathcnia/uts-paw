@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import TingkatKesulitan from './TingkatKesulitan.jsx'
-import InfoWaktu from './InfoWaktu.jsx'
+import InfoBadge from './InfoBadge.jsx'
+import RegionBadge from './RegionBadge.jsx'
 
 export default function KartuItem({ item }) {
-  const { id, judul, kategori, daerahAsal } = item
+  const { id, judul, kategori, daerahAsal, waktuMasak, tingkatKesulitan } = item
   return (
     <article className="kartu">
       <h3>
@@ -12,8 +12,11 @@ export default function KartuItem({ item }) {
       <p>
         {kategori} · {daerahAsal}
       </p>
-      <InfoWaktu item={item} />
-      <TingkatKesulitan item={item} />
+      <p>
+        <RegionBadge region={daerahAsal} />
+        <InfoBadge teks={`${waktuMasak} menit`} />
+        <InfoBadge teks={tingkatKesulitan} />
+      </p>
     </article>
   )
 }
