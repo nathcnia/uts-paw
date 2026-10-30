@@ -34,12 +34,9 @@ export default function Tambah() {
       <label htmlFor="kategori">Kategori</label>
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
         <option>Makanan Utama</option>
-        <option>Sup</option>
         <option>Kudapan</option>
         <option>Sambal</option>
         <option>Minuman</option>
-        <option>Lauk</option>
-        <option>Sayuran</option>
       </select>
 
       <label htmlFor="daerahAsal">Daerah Asal</label>
