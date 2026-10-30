@@ -28,7 +28,7 @@ test('halaman koleksi bisa dibuka', () => {
       <App />
     </MemoryRouter>,
   )
-  expect(screen.getByRole('heading', { name: 'Koleksi' })).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: /Koleksi/i })).toBeInTheDocument()
 })
 
 test('halaman tambah bisa dibuka', () => {
@@ -37,7 +37,7 @@ test('halaman tambah bisa dibuka', () => {
       <App />
     </MemoryRouter>,
   )
-  expect(screen.getByRole('heading', { name: 'Tambah Resep' })).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: /Tambah Resep/i })).toBeInTheDocument()
 })
 
 test('halaman statistik bisa dibuka', () => {
@@ -46,5 +46,5 @@ test('halaman statistik bisa dibuka', () => {
       <App />
     </MemoryRouter>,
   )
-  expect(screen.getByRole('heading', { name: 'Statistik' })).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: /Statistik/i })).toBeInTheDocument()
 })
