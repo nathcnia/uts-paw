@@ -120,6 +120,17 @@
   }
 }
 
+.region-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #e0f2f1;
+  color: #00695c;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
 .info-badge {
   display: inline-block;
   margin-top: 0.5rem;
@@ -131,15 +142,14 @@
   font-size: 0.8rem;
 }
 
-.region-badge {
-  display: inline-block;
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  padding: 0.2rem 0.5rem;
-  background-color: #e0f2f1;
-  color: #00695c;
-  border-radius: 4px;
-  font-size: 0.8rem;
+.kartu p .info-badge:nth-of-type(1) {
+  background-color: #fef7e0;
+  color: #b06000;
+}
+
+.kartu p .info-badge:nth-of-type(2) {
+  background-color: #fce8e6;
+  color: #c5221f;
 }
 
 #app-container {
@@ -155,6 +165,9 @@
 }
 
 .menu a:focus {
-  outline: 2px solid #ffffff;
-  border-radius: 2px;
+  outline: none;
+  background-color: #ffffff;
+  color: #1a73e8;
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
 }
