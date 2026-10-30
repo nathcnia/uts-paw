@@ -12,3 +12,39 @@ test('rute tidak dikenal menampilkan 404', () => {
   )
   expect(screen.getByRole('heading', { name: '404' })).toBeInTheDocument()
 })
+
+test('halaman beranda memuat judul', () => {
+  render(
+    <MemoryRouter initialEntries={['/']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(screen.getByRole('heading', { name: /Daftar Resep Masakan/i })).toBeInTheDocument()
+})
+
+test('halaman koleksi bisa dibuka', () => {
+  render(
+    <MemoryRouter initialEntries={['/koleksi']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(screen.getByRole('heading', { name: 'Koleksi' })).toBeInTheDocument()
+})
+
+test('halaman tambah bisa dibuka', () => {
+  render(
+    <MemoryRouter initialEntries={['/tambah']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(screen.getByRole('heading', { name: 'Tambah Resep' })).toBeInTheDocument()
+})
+
+test('halaman statistik bisa dibuka', () => {
+  render(
+    <MemoryRouter initialEntries={['/statistik']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(screen.getByRole('heading', { name: 'Statistik' })).toBeInTheDocument()
+})
