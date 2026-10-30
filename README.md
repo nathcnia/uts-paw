@@ -41,7 +41,7 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
    ```
 
 4. Cek perkiraan nilai kapan saja dengan `npm run cek` di folder `app/`.
-5. Push ke `main`. Aplikasi tayang di `https://USERNAME.github.io/uts-paw/` dan ringkasan rubrik muncul di tab Actions (workflow **Build dan Deploy**).
+5. Push ke `main`. Aplikasi tayang di `https://nathcnia.github.io/uts-paw/` dan ringkasan rubrik muncul di tab Actions (workflow **Build dan Deploy**).
 
 Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts-paw.mhabibalgifari.web.id/panduan).
 
@@ -70,7 +70,7 @@ Kelas: RA
 Tema: Resep Masakan Nusantara
 Deployment: https://nathcnia.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](public/beranda.png)
 
 ## Fitur
 
